@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar 测试 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    className="navigation"
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "paddingTop": undefined,
+      }
+    }
+  >
+    <div
+      className="navigation__bar"
+      style={
+        Object {
+          "height": undefined,
+          "lineHeight": "undefinedpx",
+        }
+      }
+    >
+      <div
+        className="navigation__bar__left"
+        onClick={[Function]}
+        style={
+          Object {
+            "height": undefined,
+          }
+        }
+      >
+        <div
+          className="navigation__bar__left__back-btn__iocn"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </div>
+      <div
+        className="navigation__bar__center"
+      >
+        <span
+          className="navigation__bar__center__title"
+          style={
+            Object {
+              "color": undefined,
+              "fontSize": undefined,
+              "fontWeight": undefined,
+            }
+          }
+        >
+          hello jest
+        </span>
+      </div>
+      <div
+        className="navigation__bar__right"
+        style={
+          Object {
+            "height": undefined,
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "height": undefined,
+        "paddingTop": undefined,
+      }
+    }
+  />
+</div>
+`;

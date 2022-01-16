@@ -1,0 +1,45 @@
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noEmit": true,
+//     "jsx": "react-jsx"
+//   }
+// }
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "declaration": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "downlevelIteration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "rootDir": "components",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./components/*"
+      ]
+    }
+  }
+}
